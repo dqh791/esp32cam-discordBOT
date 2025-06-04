@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables file
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output (nếu bạn có folder build)
+dist/
+build/
+
+# Arduino IDE build folder (nếu bạn dùng Arduino IDE)
+*.ino.*
+*.o
+*.d
+*.elf
+*.bin
+
+# VSCode settings
+.vscode/
+
+# Thêm bất kỳ file/tập tin riêng tư nào khác bạn không muốn public
+node_modules/
+.env
